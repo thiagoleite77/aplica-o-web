@@ -1,3 +1,3 @@
-# SITE
+# SITE 
 
-## Um breve protótipo de um site
+## Um breve protótipo de uma aplicação web, utilizando ferramentas básicas e fundamentais do HTML e CSS.
