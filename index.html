@@ -115,7 +115,7 @@
       position: fixed;
       right: 0;
       text-align: center;
-      margin-top: 0%;
+      margin-top: 150px;
       z-index: 1;
     }
 
@@ -170,14 +170,45 @@
       font-family: sans-serif;
       font: size 1.7em;
       padding: 5px;
-      margin-left:5px;
+      margin-left: 5px;
 
     }
+
+    .dados-formulario {
+      width: 70%;
+      height: auto;
+    }
+
+    nav{
+      word-spacing: 10px;
+      text-align: left;
+      margin-top:10px;
+      font-weight: bold;
+      font-family:arial;
+      font-size: 1.6rem;
+      margin-right: 2%
+  
+    }
+    
+    a{
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1.0);
+      transition: all 300ms ease-in-out;
+    }
+    a:hover{
+      color: rgb(19, 221, 12)
+    }
+
   </style>
 
 <body>
 
   <header>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Cursos</a>
+      <a href="#">Sobre</a>
+    </nav>
     <h3>THIAGO TREINAMENTOS</h3>
     <h4>Front-End Essencial</h4>
   </header>
@@ -237,7 +268,7 @@
 
 
   </section>
-  <br>b 
+  <br>b
   <section class="container" id="formulario">
 
     <h2 class="tlt">Selecione um produto para mais informações</h2>
@@ -245,12 +276,12 @@
     <form action="#" method="get" target="_blank">
       <p class="formulario-contato">
         <label for="nome">Nome</label><br>
-        <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+        <input class="dados-formulario" type="text" id="nome" name="nome" placeholder="Insira seu nome">
       </p>
 
       <p class="formulario-contato">
         <label for="contato">Contato</label><br>
-        <input type="tel" id="tel" name="tel" placeholder="Insira seu whatsapp">
+        <input class="dados-formulario" type="tel" id="tel" name="tel" placeholder="Insira seu whatsapp">
       </p>
 
       <p class="formulario-contato">
@@ -271,7 +302,7 @@
         <input type="reset" value="LIMPAR">
         <input type="submit" value="ENVIAR">
       </p>
-      
+
     </form>
 
   </section>
